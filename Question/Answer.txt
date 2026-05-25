@@ -1,0 +1,173 @@
+Q1:HTML and HTML5 difference
+Ans:HTML stand for HyperText Markup Language.It is used to create the structure of a webpage.
+With HTML we can add:
+1 Headings 
+2 Pargraphs
+3 Images
+4 Links
+5 Buttons
+Difference Between HTML and HTML5
+HTML is the old version while HTML5 is the latest version of HTML. 
+
+Q2:what is semantic HTML tag?why are they important in web development?
+Ans:Semantic tags tell the purpose of the content clearly.Example of semantic tags are:
+<header>
+<nav>
+<section>
+<footer>
+Important in Web Development:
+1.they make code easy to understand.
+2.improve website SEO.
+Example:
+<header>
+<h1>My Website</h1>
+</header>
+<footer>
+  <p>Copyright 2026</p>
+</footer>
+
+Q3:what is the difference between <span> and <div> tags?
+Ans:<div> is used for bigger sections, while <span> is used for small inline content.
+Example:
+<div>This is div tag</div>
+<span>This is span tag</span>
+
+Q4:what is the difference between Block-level elements and inline elements?
+Ans:Block-level elements take full width and start from a new line.
+Inline elements only take required space and stay in the same line.
+
+Q5:what is the purpose of the DOCTYPE declaration in HTML?
+Ans:The DOCTYPE declaration it helps the browser display the webpage correctly.
+Example:
+<!DOCTYPE html>
+<h1>Hello World</h1> 
+
+Q6:What is the difference between id and class attributes?
+Ans:The id attribute is used for a unique element, while the class attribute is used for multiple elements.
+id can be used only once on a page.
+class can be used many times.
+Example:
+<h1 id="title">Welcome</h1>
+<p class="text">Hello</p>
+<p class="text">World</p>
+
+Q7:How do you create a from in HTML?Which input type are commonly used?
+Ans:A form in HTML is created using the <form> tag.
+It is used to collect user data like name, email, password, etc.
+Example:
+<form>
+  <input type="text" placeholder="Enter Name">
+
+  <input type="email" placeholder="Enter Email">
+
+  <input type="password" placeholder="Enter Password">
+
+  <input type="submit" value="Submit">
+</form>
+
+Q8:What are meta tags in HTML and why are they used?
+Ans:Meta tags give extra information about the webpage.
+Example:
+<head>
+<meta charset="UTF-8">
+</head>
+
+Q9:Explain the purpose of the alt attribute in the <img> tag?
+Ans:The alt attribute in the <img> tag is used to show alternative text if the image does not load.
+It also helps screen readers and improves SEO.
+Example:
+<img src="cat.jpg" alt="Cute Cat">
+
+Q10:How do you make an image clickable in HTML?
+Ans:An image is made clickable by placing the <img> tag inside the <a> tag.
+Example:
+<a href="https://google.com">
+<img src="image.jpg" alt="Image">
+</a>
+
+Q11:What is the difference between JPG, PNG, SVG, and WebP image formats in web development?
+Ans:JPG :photos
+PNG : transparent images
+SVG : scalable icons
+WebP : modern fast-loading images
+Example:
+<img src="photo.jpg">
+<img src="logo.png">
+<img src="icon.svg">
+<img src="image.webp">
+
+Q12:What are semantic tags introduced in HTML5 such as <header>,<footer>, <section>, and <article>?
+Ans:Semantic tags make the webpage structure clear and easy to understand.
+Example:
+<header>Website Heading</header>
+<section>Content</section>
+<footer>Footer</footer>
+
+Q13:What is the difference between ‹script>, async, and defer in HTML?
+Ans:script = normal loading
+async = fast loading, runs anytime
+defer = waits until page is ready
+Example:
+<script src="app.js"></script>
+<script async src="app.js"></script>
+<script defer src="app.js"></script>
+
+Q14:How do you embed audio and video in HTML5?
+Ans:<audio> is used to add sound
+<video> is used to add video
+controls shows play/pause buttons
+Example Audio:
+<audio controls>
+  <source src="song.mp3">
+</audio>
+Example Video:
+<video controls width="300">
+  <source src="video.mp4">
+</video>
+
+Q15:What is the difference between relative paths and absolute paths in HTML?
+Ans:Relative path = local file path
+Absolute path = full URL path.
+Example of Relative Path:
+<img src="images/photo.jpg">
+Example of Absolute Path:
+<img src="https://example.com/photo.jpg">
+
+Q16:What are data attributes in HTML (data-*)? Where are they used?
+Ans:data-* attributes are used to store custom data inside HTML elements.
+Example:
+<button data-name="Fareena">
+  Click Me
+</button>
+
+Q17:What is the purpose of the viewport meta tag in responsive web design?
+Ans:The viewport meta tag is used to make a website look good on mobile and different screen sizes.
+Example:
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Q18:How can you improve SEO using HTML?
+Ans:SEO can be improved in HTML by:
+using semantic tags
+adding meta tags
+using proper headings
+adding alt text in images
+using meaningful title
+Example:
+<head>
+  <title>My HTML Website</title>
+  <meta name="description" content="This website is about HTML learning">
+</head>
+<img src="html.jpg" alt="HTML Logo">
+
+Q19:What are accessibility best practices in HTML?
+Ans:Accessibility makes the website easy for everyone to use.
+Example:
+<img src="logo.jpg" alt="Website Logo">
+<label>Name</label>
+<input type="text">
+
+Q20:What is the difference between <strong> vs <b> and <em> vs <i> tags?
+Ans:strong: important text
+b : bold text
+em : emphasized text
+i : italic text
